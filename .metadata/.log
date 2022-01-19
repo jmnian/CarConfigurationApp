@@ -1,0 +1,1650 @@
+!SESSION 2022-01-09 12:10:48.871 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-01-09 12:11:19.994
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-09 12:11:19.994
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67fda9fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@580a5b6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-09 12:11:19.994
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66450129,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14f1545c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-09 12:11:24.411
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-09 12:11:24.416
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+!SESSION 2022-01-09 12:13:16.707 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-01-09 12:13:26.275
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-09 12:13:26.275
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16eb01d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4246f904,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-09 12:13:26.275
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b01b3f8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27c49f54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-09 12:15:20.191
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-09 12:15:20.196
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-01-11 12:05:25.493
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package model;
+
+import java.io.*;
+import model.OptionSet.Option;
+
+public class Automotive implements Serializable{
+	private String name;
+	private float basePrice;
+	private OptionSet[] optset;
+	
+	public Automotive(){}
+	public Automotive(String name) {
+		super();
+		this.name = name;
+	}
+	public Automotive(String name, float basePrice) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+	}
+	public Automotive(String name, float basePrice, int optionSetSize) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+		this.optset = new OptionSet[optionSetSize]; 
+		for (int i = 0; i < optionSetSize; i++) {
+			optset[i] = new OptionSet();
+		}
+	}
+	
+	//Getters
+	public String getName() {
+		return name;
+	}
+	public float getBasePrice() {
+		return basePrice;
+	}
+	public OptionSet getOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't getOptionSet() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet getOptionSet(String name) {
+		int index = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName().equals(name)) {
+				break;
+			} else {
+				index++;
+			}
+		}
+		if (index == optset.length && !optset[index].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, please check again.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet[] getOptionSetArray() {
+		return optset;
+	}
+	public int getOptionSetSize() {
+		return optset.length;
+	}
+	
+	public Option getOption(int optsetIndex, int optIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOption() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOption(optIndex);
+	}
+	public Option getOption(String optsetName, int optIndex) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optIndex);
+	}
+	public Option getOption(int optsetIndex, String optName) {
+		return optset[optsetIndex].getOption(optName);
+	}
+	public Option getOption(String optsetName, String optName) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optName);
+	}
+	public Option getOption(OptionSet set, int optIndex) {
+		return set.getOption(optIndex);
+	}
+	public Option getOption(OptionSet set, String optName) {
+		return set.getOption(optName);
+	}
+	public Option[] getOptionArray(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionArray() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOptionArray();
+	}
+	public int getOptionSize(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionSize() becasue your input index for the OptionSet array is not valid.");
+			return 0;
+		}
+		return optset[optsetIndex].getOptionArrayLength();
+	}
+	
+	//Setters
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setBasePrice(float basePrice) {
+		this.basePrice = basePrice;
+	}
+	public void setOptionSet(String name, String newName, Option[] newOpt) {
+		OptionSet optset = getOptionSet(name);
+		optset.setName(newName);
+		optset.setOption(newOpt);
+	}
+	public void setOptionSet(int index, String newName, Option[] newOpt) {
+		optset[index].setName(newName);
+		optset[index].setOption(newOpt);
+	}
+	public void setOptionSetArray(int size) {
+		OptionSet[] optset = new OptionSet[size];
+		for (int i = 0; i < size; i++) {
+			optset[i] = new OptionSet();
+		}
+		this.optset = optset;
+	}
+	public void setOption(int optsetIndex, int optIndex, String name, float price) {
+		optset[optsetIndex].getOption(optIndex).setName(name);
+		optset[optsetIndex].getOption(optIndex).setPrice(price);
+	}
+	public void setOptionArray(OptionSet optset, int size) {
+		optset.setOptionArray(size);
+	}
+	
+	//Finders
+	// What's the difference between these and getters? 
+	public OptionSet findOptionSet(String name) {
+		int result = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset[result];
+	}
+	public Option findOption(String optsetName, String name) {
+		int result = 0;
+		OptionSet optset = findOptionSet(optsetName);
+		for (int i = 0; i < optset.getOptionArrayLength(); i++) {
+			if (optset.getOptionArray()[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset.getOptionArray()[result];
+	}
+		
+	//Deleter
+	public void deleteOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't deleteOptionSet() becasue your input index for the OptionSet array is not valid.");
+		}
+		OptionSet[] old = optset;
+		int oldIndex = 0;
+		this.optset = new OptionSet[this.optset.length - 1];
+		for (int i = 0; i < this.optset.length; i++) {
+			if (i == index) {
+				oldIndex++;
+			}
+			this.optset[i] = old[oldIndex];
+			oldIndex++;
+		}
+	}
+	public void deleteOptionSet(String name) {
+		OptionSet delete = getOptionSet(name);
+		int deleteIndex = 0;
+		for (int i = 0; i < this.optset.length; i++) {
+			if (this.optset[i].equals(delete)) {
+				break;
+			} else {
+				deleteIndex++;
+			}
+		}
+		if (deleteIndex == this.optset.length && !this.optset[deleteIndex].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, nothing is deleted.");
+			return;
+		}
+		deleteOptionSet(deleteIndex);
+	}
+	public void deleteOption(int setIndex, int optIndex) {
+		OptionSet set = getOptionSet(setIndex);
+		Option del = getOption(set, optIndex);
+		Option[] before = set.getOptionArray();
+		Option[] after = new Option[before.length - 1];
+	}
+	public void deleteOption(int setIndex, String optName) {
+		
+	}
+	public void deleteOption(String setName, int optIndex) {
+		
+	}
+	public void deleteOption(String setName, String optName) {
+		
+	}
+	
+	
+	//Updater
+	public void updateOptionSet() {
+		
+	}
+	public void updateOption() {
+		
+	}
+	
+	//Utility
+	public void print() {
+//		String format = "%-40s%s%n";
+//		System.out.printf(format, s, sa); // Is this String concatenation? 
+		StringBuilder sb = new StringBuilder();
+		sb.append("Automitive Name: ");
+		sb.append(this.name);
+		sb.append("\tBase Price: $");
+		sb.append(this.basePrice);
+		System.out.println(sb.toString());
+		for (int i = 0; i < optset.length; i++) {
+			System.out.print("\s\s");
+			optset[i].print();
+		}
+		System.out.println("-------------End of Automotive print function--------------");
+	}
+	
+	public boolean isValid(int setIndex) {
+		if (setIndex < 0 || setIndex >= this.optset.length) {
+			System.out.println("Input OptionSet index is invalid");
+			return false;
+		}
+		return true;
+	}
+	public boolean isValid(String setName) {
+		for(int i = 0; i < this.optset.length; i++) {
+			if(optset[i].getName().equals(setName)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	public boolean isValid(int setIndex, int optIndex) {
+		if (isValid(setIndex) (optIndex < 0 || optIndex >= )
+	}
+	public boolean isValid(int setIndex, String optName) {
+		
+	}
+	public boolean isValid(String setName, int optIndex) {
+		
+	}
+	public boolean isValid(String setName, String optName) {
+		
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-01-11 12:05:25.503
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-01-11 12:05:25.504
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-01-11 12:05:25.532
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package model;
+
+import java.io.*;
+import model.OptionSet.Option;
+
+public class Automotive implements Serializable{
+	private String name;
+	private float basePrice;
+	private OptionSet[] optset;
+	
+	public Automotive(){}
+	public Automotive(String name) {
+		super();
+		this.name = name;
+	}
+	public Automotive(String name, float basePrice) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+	}
+	public Automotive(String name, float basePrice, int optionSetSize) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+		this.optset = new OptionSet[optionSetSize]; 
+		for (int i = 0; i < optionSetSize; i++) {
+			optset[i] = new OptionSet();
+		}
+	}
+	
+	//Getters
+	public String getName() {
+		return name;
+	}
+	public float getBasePrice() {
+		return basePrice;
+	}
+	public OptionSet getOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't getOptionSet() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet getOptionSet(String name) {
+		int index = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName().equals(name)) {
+				break;
+			} else {
+				index++;
+			}
+		}
+		if (index == optset.length && !optset[index].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, please check again.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet[] getOptionSetArray() {
+		return optset;
+	}
+	public int getOptionSetSize() {
+		return optset.length;
+	}
+	
+	public Option getOption(int optsetIndex, int optIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOption() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOption(optIndex);
+	}
+	public Option getOption(String optsetName, int optIndex) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optIndex);
+	}
+	public Option getOption(int optsetIndex, String optName) {
+		return optset[optsetIndex].getOption(optName);
+	}
+	public Option getOption(String optsetName, String optName) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optName);
+	}
+	public Option getOption(OptionSet set, int optIndex) {
+		return set.getOption(optIndex);
+	}
+	public Option getOption(OptionSet set, String optName) {
+		return set.getOption(optName);
+	}
+	public Option[] getOptionArray(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionArray() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOptionArray();
+	}
+	public int getOptionSize(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionSize() becasue your input index for the OptionSet array is not valid.");
+			return 0;
+		}
+		return optset[optsetIndex].getOptionArrayLength();
+	}
+	
+	//Setters
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setBasePrice(float basePrice) {
+		this.basePrice = basePrice;
+	}
+	public void setOptionSet(String name, String newName, Option[] newOpt) {
+		OptionSet optset = getOptionSet(name);
+		optset.setName(newName);
+		optset.setOption(newOpt);
+	}
+	public void setOptionSet(int index, String newName, Option[] newOpt) {
+		optset[index].setName(newName);
+		optset[index].setOption(newOpt);
+	}
+	public void setOptionSetArray(int size) {
+		OptionSet[] optset = new OptionSet[size];
+		for (int i = 0; i < size; i++) {
+			optset[i] = new OptionSet();
+		}
+		this.optset = optset;
+	}
+	public void setOption(int optsetIndex, int optIndex, String name, float price) {
+		optset[optsetIndex].getOption(optIndex).setName(name);
+		optset[optsetIndex].getOption(optIndex).setPrice(price);
+	}
+	public void setOptionArray(OptionSet optset, int size) {
+		optset.setOptionArray(size);
+	}
+	
+	//Finders
+	// What's the difference between these and getters? 
+	public OptionSet findOptionSet(String name) {
+		int result = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset[result];
+	}
+	public Option findOption(String optsetName, String name) {
+		int result = 0;
+		OptionSet optset = findOptionSet(optsetName);
+		for (int i = 0; i < optset.getOptionArrayLength(); i++) {
+			if (optset.getOptionArray()[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset.getOptionArray()[result];
+	}
+		
+	//Deleter
+	public void deleteOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't deleteOptionSet() becasue your input index for the OptionSet array is not valid.");
+		}
+		OptionSet[] old = optset;
+		int oldIndex = 0;
+		this.optset = new OptionSet[this.optset.length - 1];
+		for (int i = 0; i < this.optset.length; i++) {
+			if (i == index) {
+				oldIndex++;
+			}
+			this.optset[i] = old[oldIndex];
+			oldIndex++;
+		}
+	}
+	public void deleteOptionSet(String name) {
+		OptionSet delete = getOptionSet(name);
+		int deleteIndex = 0;
+		for (int i = 0; i < this.optset.length; i++) {
+			if (this.optset[i].equals(delete)) {
+				break;
+			} else {
+				deleteIndex++;
+			}
+		}
+		if (deleteIndex == this.optset.length && !this.optset[deleteIndex].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, nothing is deleted.");
+			return;
+		}
+		deleteOptionSet(deleteIndex);
+	}
+	public void deleteOption(int setIndex, int optIndex) {
+		OptionSet set = getOptionSet(setIndex);
+		Option del = getOption(set, optIndex);
+		Option[] before = set.getOptionArray();
+		Option[] after = new Option[before.length - 1];
+	}
+	public void deleteOption(int setIndex, String optName) {
+		
+	}
+	public void deleteOption(String setName, int optIndex) {
+		
+	}
+	public void deleteOption(String setName, String optName) {
+		
+	}
+	
+	
+	//Updater
+	public void updateOptionSet() {
+		
+	}
+	public void updateOption() {
+		
+	}
+	
+	//Utility
+	public void print() {
+//		String format = "%-40s%s%n";
+//		System.out.printf(format, s, sa); // Is this String concatenation? 
+		StringBuilder sb = new StringBuilder();
+		sb.append("Automitive Name: ");
+		sb.append(this.name);
+		sb.append("\tBase Price: $");
+		sb.append(this.basePrice);
+		System.out.println(sb.toString());
+		for (int i = 0; i < optset.length; i++) {
+			System.out.print("\s\s");
+			optset[i].print();
+		}
+		System.out.println("-------------End of Automotive print function--------------");
+	}
+	
+	public boolean isValid(int setIndex) {
+		if (setIndex < 0 || setIndex >= this.optset.length) {
+			System.out.println("Input OptionSet index is invalid");
+			return false;
+		}
+		return true;
+	}
+	public boolean isValid(String setName) {
+		for(int i = 0; i < this.optset.length; i++) {
+			if(optset[i].getName().equals(setName)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	public boolean isValid(int setIndex, int optIndex) {
+		if (isValid(setIndex) (optIndex < 0 || optIndex >= )
+	}
+	public boolean isValid(int setIndex, String optName) {
+		
+	}
+	public boolean isValid(String setName, int optIndex) {
+		
+	}
+	public boolean isValid(String setName, String optName) {
+		
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-01-11 12:05:25.534
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-01-11 12:05:25.534
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-01-11 12:05:26.528
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package model;
+
+import java.io.*;
+import model.OptionSet.Option;
+
+public class Automotive implements Serializable{
+	private String name;
+	private float basePrice;
+	private OptionSet[] optset;
+	
+	public Automotive(){}
+	public Automotive(String name) {
+		super();
+		this.name = name;
+	}
+	public Automotive(String name, float basePrice) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+	}
+	public Automotive(String name, float basePrice, int optionSetSize) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+		this.optset = new OptionSet[optionSetSize]; 
+		for (int i = 0; i < optionSetSize; i++) {
+			optset[i] = new OptionSet();
+		}
+	}
+	
+	//Getters
+	public String getName() {
+		return name;
+	}
+	public float getBasePrice() {
+		return basePrice;
+	}
+	public OptionSet getOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't getOptionSet() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet getOptionSet(String name) {
+		int index = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName().equals(name)) {
+				break;
+			} else {
+				index++;
+			}
+		}
+		if (index == optset.length && !optset[index].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, please check again.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet[] getOptionSetArray() {
+		return optset;
+	}
+	public int getOptionSetSize() {
+		return optset.length;
+	}
+	
+	public Option getOption(int optsetIndex, int optIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOption() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOption(optIndex);
+	}
+	public Option getOption(String optsetName, int optIndex) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optIndex);
+	}
+	public Option getOption(int optsetIndex, String optName) {
+		return optset[optsetIndex].getOption(optName);
+	}
+	public Option getOption(String optsetName, String optName) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optName);
+	}
+	public Option getOption(OptionSet set, int optIndex) {
+		return set.getOption(optIndex);
+	}
+	public Option getOption(OptionSet set, String optName) {
+		return set.getOption(optName);
+	}
+	public Option[] getOptionArray(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionArray() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOptionArray();
+	}
+	public int getOptionSize(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionSize() becasue your input index for the OptionSet array is not valid.");
+			return 0;
+		}
+		return optset[optsetIndex].getOptionArrayLength();
+	}
+	
+	//Setters
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setBasePrice(float basePrice) {
+		this.basePrice = basePrice;
+	}
+	public void setOptionSet(String name, String newName, Option[] newOpt) {
+		OptionSet optset = getOptionSet(name);
+		optset.setName(newName);
+		optset.setOption(newOpt);
+	}
+	public void setOptionSet(int index, String newName, Option[] newOpt) {
+		optset[index].setName(newName);
+		optset[index].setOption(newOpt);
+	}
+	public void setOptionSetArray(int size) {
+		OptionSet[] optset = new OptionSet[size];
+		for (int i = 0; i < size; i++) {
+			optset[i] = new OptionSet();
+		}
+		this.optset = optset;
+	}
+	public void setOption(int optsetIndex, int optIndex, String name, float price) {
+		optset[optsetIndex].getOption(optIndex).setName(name);
+		optset[optsetIndex].getOption(optIndex).setPrice(price);
+	}
+	public void setOptionArray(OptionSet optset, int size) {
+		optset.setOptionArray(size);
+	}
+	
+	//Finders
+	// What's the difference between these and getters? 
+	public OptionSet findOptionSet(String name) {
+		int result = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset[result];
+	}
+	public Option findOption(String optsetName, String name) {
+		int result = 0;
+		OptionSet optset = findOptionSet(optsetName);
+		for (int i = 0; i < optset.getOptionArrayLength(); i++) {
+			if (optset.getOptionArray()[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset.getOptionArray()[result];
+	}
+		
+	//Deleter
+	public void deleteOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't deleteOptionSet() becasue your input index for the OptionSet array is not valid.");
+		}
+		OptionSet[] old = optset;
+		int oldIndex = 0;
+		this.optset = new OptionSet[this.optset.length - 1];
+		for (int i = 0; i < this.optset.length; i++) {
+			if (i == index) {
+				oldIndex++;
+			}
+			this.optset[i] = old[oldIndex];
+			oldIndex++;
+		}
+	}
+	public void deleteOptionSet(String name) {
+		OptionSet delete = getOptionSet(name);
+		int deleteIndex = 0;
+		for (int i = 0; i < this.optset.length; i++) {
+			if (this.optset[i].equals(delete)) {
+				break;
+			} else {
+				deleteIndex++;
+			}
+		}
+		if (deleteIndex == this.optset.length && !this.optset[deleteIndex].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, nothing is deleted.");
+			return;
+		}
+		deleteOptionSet(deleteIndex);
+	}
+	public void deleteOption(int setIndex, int optIndex) {
+		OptionSet set = getOptionSet(setIndex);
+		Option del = getOption(set, optIndex);
+		Option[] before = set.getOptionArray();
+		Option[] after = new Option[before.length - 1];
+	}
+	public void deleteOption(int setIndex, String optName) {
+		
+	}
+	public void deleteOption(String setName, int optIndex) {
+		
+	}
+	public void deleteOption(String setName, String optName) {
+		
+	}
+	
+	
+	//Updater
+	public void updateOptionSet() {
+		
+	}
+	public void updateOption() {
+		
+	}
+	
+	//Utility
+	public void print() {
+//		String format = "%-40s%s%n";
+//		System.out.printf(format, s, sa); // Is this String concatenation? 
+		StringBuilder sb = new StringBuilder();
+		sb.append("Automitive Name: ");
+		sb.append(this.name);
+		sb.append("\tBase Price: $");
+		sb.append(this.basePrice);
+		System.out.println(sb.toString());
+		for (int i = 0; i < optset.length; i++) {
+			System.out.print("\s\s");
+			optset[i].print();
+		}
+		System.out.println("-------------End of Automotive print function--------------");
+	}
+	
+	public boolean isValid(int setIndex) {
+		if (setIndex < 0 || setIndex >= this.optset.length) {
+			System.out.println("Input OptionSet index is invalid");
+			return false;
+		}
+		return true;
+	}
+	public boolean isValid(String setName) {
+		for(int i = 0; i < this.optset.length; i++) {
+			if(optset[i].getName().equals(setName)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	public boolean isValid(int setIndex, int optIndex) {
+		if (isValid(setIndex)(optIndex < 0 || optIndex >= )
+	}
+	public boolean isValid(int setIndex, String optName) {
+		
+	}
+	public boolean isValid(String setName, int optIndex) {
+		
+	}
+	public boolean isValid(String setName, String optName) {
+		
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-01-11 12:05:26.530
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-01-11 12:05:26.530
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-01-11 12:05:26.541
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package model;
+
+import java.io.*;
+import model.OptionSet.Option;
+
+public class Automotive implements Serializable{
+	private String name;
+	private float basePrice;
+	private OptionSet[] optset;
+	
+	public Automotive(){}
+	public Automotive(String name) {
+		super();
+		this.name = name;
+	}
+	public Automotive(String name, float basePrice) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+	}
+	public Automotive(String name, float basePrice, int optionSetSize) {
+		super();
+		this.name = name;
+		this.basePrice = basePrice;
+		this.optset = new OptionSet[optionSetSize]; 
+		for (int i = 0; i < optionSetSize; i++) {
+			optset[i] = new OptionSet();
+		}
+	}
+	
+	//Getters
+	public String getName() {
+		return name;
+	}
+	public float getBasePrice() {
+		return basePrice;
+	}
+	public OptionSet getOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't getOptionSet() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet getOptionSet(String name) {
+		int index = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName().equals(name)) {
+				break;
+			} else {
+				index++;
+			}
+		}
+		if (index == optset.length && !optset[index].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, please check again.");
+			return null;
+		}
+		return optset[index];
+	}
+	public OptionSet[] getOptionSetArray() {
+		return optset;
+	}
+	public int getOptionSetSize() {
+		return optset.length;
+	}
+	
+	public Option getOption(int optsetIndex, int optIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOption() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOption(optIndex);
+	}
+	public Option getOption(String optsetName, int optIndex) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optIndex);
+	}
+	public Option getOption(int optsetIndex, String optName) {
+		return optset[optsetIndex].getOption(optName);
+	}
+	public Option getOption(String optsetName, String optName) {
+		OptionSet set = getOptionSet(optsetName);
+		return set.getOption(optName);
+	}
+	public Option getOption(OptionSet set, int optIndex) {
+		return set.getOption(optIndex);
+	}
+	public Option getOption(OptionSet set, String optName) {
+		return set.getOption(optName);
+	}
+	public Option[] getOptionArray(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionArray() becasue your input index for the OptionSet array is not valid.");
+			return null;
+		}
+		return optset[optsetIndex].getOptionArray();
+	}
+	public int getOptionSize(int optsetIndex) {
+		if (optsetIndex < 0 || optsetIndex >= optset.length) {
+			System.out.println("Can't getOptionSize() becasue your input index for the OptionSet array is not valid.");
+			return 0;
+		}
+		return optset[optsetIndex].getOptionArrayLength();
+	}
+	
+	//Setters
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setBasePrice(float basePrice) {
+		this.basePrice = basePrice;
+	}
+	public void setOptionSet(String name, String newName, Option[] newOpt) {
+		OptionSet optset = getOptionSet(name);
+		optset.setName(newName);
+		optset.setOption(newOpt);
+	}
+	public void setOptionSet(int index, String newName, Option[] newOpt) {
+		optset[index].setName(newName);
+		optset[index].setOption(newOpt);
+	}
+	public void setOptionSetArray(int size) {
+		OptionSet[] optset = new OptionSet[size];
+		for (int i = 0; i < size; i++) {
+			optset[i] = new OptionSet();
+		}
+		this.optset = optset;
+	}
+	public void setOption(int optsetIndex, int optIndex, String name, float price) {
+		optset[optsetIndex].getOption(optIndex).setName(name);
+		optset[optsetIndex].getOption(optIndex).setPrice(price);
+	}
+	public void setOptionArray(OptionSet optset, int size) {
+		optset.setOptionArray(size);
+	}
+	
+	//Finders
+	// What's the difference between these and getters? 
+	public OptionSet findOptionSet(String name) {
+		int result = 0;
+		for (int i = 0; i < optset.length; i++) {
+			if (optset[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset[result];
+	}
+	public Option findOption(String optsetName, String name) {
+		int result = 0;
+		OptionSet optset = findOptionSet(optsetName);
+		for (int i = 0; i < optset.getOptionArrayLength(); i++) {
+			if (optset.getOptionArray()[i].getName() == name) {
+				result = i;
+			}
+		}
+		return optset.getOptionArray()[result];
+	}
+		
+	//Deleter
+	public void deleteOptionSet(int index) {
+		if (index < 0 || index >= optset.length) {
+			System.out.println("Can't deleteOptionSet() becasue your input index for the OptionSet array is not valid.");
+		}
+		OptionSet[] old = optset;
+		int oldIndex = 0;
+		this.optset = new OptionSet[this.optset.length - 1];
+		for (int i = 0; i < this.optset.length; i++) {
+			if (i == index) {
+				oldIndex++;
+			}
+			this.optset[i] = old[oldIndex];
+			oldIndex++;
+		}
+	}
+	public void deleteOptionSet(String name) {
+		OptionSet delete = getOptionSet(name);
+		int deleteIndex = 0;
+		for (int i = 0; i < this.optset.length; i++) {
+			if (this.optset[i].equals(delete)) {
+				break;
+			} else {
+				deleteIndex++;
+			}
+		}
+		if (deleteIndex == this.optset.length && !this.optset[deleteIndex].getName().equals(name)) {
+			System.out.println("No OptionSet name match your input, nothing is deleted.");
+			return;
+		}
+		deleteOptionSet(deleteIndex);
+	}
+	public void deleteOption(int setIndex, int optIndex) {
+		OptionSet set = getOptionSet(setIndex);
+		Option del = getOption(set, optIndex);
+		Option[] before = set.getOptionArray();
+		Option[] after = new Option[before.length - 1];
+	}
+	public void deleteOption(int setIndex, String optName) {
+		
+	}
+	public void deleteOption(String setName, int optIndex) {
+		
+	}
+	public void deleteOption(String setName, String optName) {
+		
+	}
+	
+	
+	//Updater
+	public void updateOptionSet() {
+		
+	}
+	public void updateOption() {
+		
+	}
+	
+	//Utility
+	public void print() {
+//		String format = "%-40s%s%n";
+//		System.out.printf(format, s, sa); // Is this String concatenation? 
+		StringBuilder sb = new StringBuilder();
+		sb.append("Automitive Name: ");
+		sb.append(this.name);
+		sb.append("\tBase Price: $");
+		sb.append(this.basePrice);
+		System.out.println(sb.toString());
+		for (int i = 0; i < optset.length; i++) {
+			System.out.print("\s\s");
+			optset[i].print();
+		}
+		System.out.println("-------------End of Automotive print function--------------");
+	}
+	
+	public boolean isValid(int setIndex) {
+		if (setIndex < 0 || setIndex >= this.optset.length) {
+			System.out.println("Input OptionSet index is invalid");
+			return false;
+		}
+		return true;
+	}
+	public boolean isValid(String setName) {
+		for(int i = 0; i < this.optset.length; i++) {
+			if(optset[i].getName().equals(setName)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	public boolean isValid(int setIndex, int optIndex) {
+		if (isValid(setIndex)(optIndex < 0 || optIndex >= )
+	}
+	public boolean isValid(int setIndex, String optName) {
+		
+	}
+	public boolean isValid(String setName, int optIndex) {
+		
+	}
+	public boolean isValid(String setName, String optName) {
+		
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-01-11 12:05:26.545
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-01-11 12:05:26.545
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2693)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2041)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-01-12 13:24:11.155 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-01-12 13:24:20.795
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-12 13:24:20.795
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e1d813a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1964ef9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-12 13:24:20.795
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c2e73ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3891db3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-12 13:24:26.773
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-12 13:24:26.779
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+!SESSION 2022-01-17 16:50:11.609 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/jimmynian/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-01-17 16:50:21.697
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-17 16:50:21.697
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1964ef9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c2e73ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-17 16:50:21.697
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3891db3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a778943,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-17 16:50:26.950
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-17 16:50:26.970
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering

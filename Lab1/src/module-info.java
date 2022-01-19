@@ -1,0 +1,2 @@
+module carConfigurationApp {
+}

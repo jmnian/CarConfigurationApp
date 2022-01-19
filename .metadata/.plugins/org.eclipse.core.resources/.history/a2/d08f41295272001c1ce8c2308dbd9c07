@@ -1,0 +1,64 @@
+package model;
+
+public class OptionSet {
+	private String name;
+	private Option[] opt;
+	
+	protected OptionSet(){};
+	protected OptionSet(String name, Option[] opt) {
+		super();
+		this.name = name;
+		this.opt = opt;
+	}
+
+	protected String getName() {
+		return name;
+	}
+	protected Option[] getOption() {
+		return opt;
+	}
+	protected Option getOption(int index) {
+		return opt[index];
+	}
+	protected int getOptionArrayLength() {
+		return opt.length;
+	}
+	
+	protected void setName(String name) {
+		this.name = name;
+	}
+	protected void setOption(Option[] opt) {
+		this.opt = opt;
+	}
+	protected void setOptionArray(int size) {
+		Option[] opt = new Option[size];
+		for (int i = 0; i < size; i++) {
+			opt[i] = new Option();
+		}
+		this.opt = opt;
+	}
+
+
+	public class Option {
+		private String name;
+		private float price;
+		
+		protected Option(){}
+		protected Option(String name, float price) {
+			this.name = name;
+			this.price = price;
+		}
+		protected String getName() {
+			return name;
+		}
+		protected float getPrice() {
+			return price;
+		}
+		protected void setName(String name) {
+			this.name = name;
+		}
+		protected void setPrice(float price) {
+			this.price = price;
+		}
+	}
+}
