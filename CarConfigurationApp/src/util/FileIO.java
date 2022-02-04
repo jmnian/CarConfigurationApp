@@ -15,13 +15,18 @@ public class FileIO {
 			//Car base price missing
 			try { 
 				String name = buff.readLine();
+				String make = buff.readLine();
+				String model = buff.readLine();
 				String price = buff.readLine();
-				if (!isNumeric(name) && isNumeric(price)) {
+				//Should add in custom exception handlers for make, model and price these three lines
+				if (!isNumeric(name) && !isNumeric(make) && !isNumeric(model) && isNumeric(price)) {
 					automobile.setName(name);
+					automobile.setMake(make);
+					automobile.setModel(model);
 					automobile.setBasePrice(Float.parseFloat(price));
-				} else if (isNumeric(name) && !isNumeric(price)){
+				} else if (isNumeric(make) && !isNumeric(price)){
 					throw new AutoException(3, automobile);
-				} else if (isNumeric(name) && isNumeric(price)) {
+				} else if (isNumeric(make) && isNumeric(price)) {
 					throw new AutoException(1, automobile);
 				} else {
 					throw new AutoException(2, automobile);
@@ -36,7 +41,8 @@ public class FileIO {
 				if (optsetSizeString == null || !isPositiveInteger(optsetSizeString)) {
 					throw new AutoException(4, automobile);
 				} else {
-					automobile.setOptionSetArray(Integer.parseInt(optsetSizeString));
+					automobile.setOptionSetArrayList(Integer.parseInt(optsetSizeString));
+					automobile.setChoiceArrayList(Integer.parseInt(optsetSizeString));
 				}
 			} catch (AutoException a) {
 				a.fix();
@@ -50,7 +56,7 @@ public class FileIO {
 					if (optSizeString == null || !isPositiveInteger(optSizeString)) {
 						throw new AutoException(5, automobile, i);
 					} else {
-						automobile.setOptionArray(automobile.getOptionSet(i), Integer.parseInt(optSizeString));
+						automobile.setOptionArrayList(automobile.getOptionSet(i), Integer.parseInt(optSizeString));
 					}
 				} catch (AutoException a) {
 					a.fix();
@@ -84,7 +90,7 @@ public class FileIO {
 						return automobile;
 					}
 				}
-				automobile.setOptionSet(i, optsetName, automobile.getOptionArray(i));
+				automobile.setOptionSet(i, optsetName, automobile.getOptionArrayList(i));
 			}
 			
 			boolean eof = false;

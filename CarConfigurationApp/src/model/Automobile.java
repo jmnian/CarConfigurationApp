@@ -1,36 +1,46 @@
 package model;
 
 import java.io.*;
+import java.util.*;
 import model.OptionSet.Option;
 
 public class Automobile implements Serializable{
 	private String name;
+	private String make; //brand
+	private String model;//specific model
 	private float basePrice;
-	private OptionSet[] optset;
+	private ArrayList<OptionSet> optset;
+	private ArrayList<Option> choice;
 	
 	public Automobile(){}
-	public Automobile(String name) {
+	public Automobile(String make, String model) {
 		super();
-		this.name = name;
+		this.make = make;
+		this.model = model;
 	}
-	public Automobile(String name, float basePrice) {
+	public Automobile(String make, String model, float basePrice) {
 		super();
-		this.name = name;
+		this.make = make;
+		this.model = model;
 		this.basePrice = basePrice;
 	}
-	public Automobile(String name, float basePrice, int optionSetSize) {
+	public Automobile(String make, String model, float basePrice, int optionSetSize) {
 		super();
-		this.name = name;
+		this.make = make;
+		this.model = model;
 		this.basePrice = basePrice;
-		this.optset = new OptionSet[optionSetSize]; 
-		for (int i = 0; i < optionSetSize; i++) {
-			optset[i] = new OptionSet();
-		}
+		this.optset = new ArrayList<OptionSet>(optionSetSize); 
 	}
 	
 	//Getters
 	public String getName() {
 		return name;
+	}
+	public String getMake() {
+		return make;
+	}
+	public String getModel() {
+		return model;
 	}
 	public float getBasePrice() {
 		return basePrice;
@@ -39,15 +49,15 @@ public class Automobile implements Serializable{
 		if (!isValid(index)) {
 			return null;
 		}
-		return optset[index];
+		return optset.get(index);
 	}
 	public int getOptionSetIndex(String name) {
 		if (!isValid(name)) {
 			return -1;
 		}
 		int index = 0;
-		for (int i = 0; i < optset.length; i++) {
-			if (optset[i].getName().equals(name)) {
+		for (int i = 0; i < optset.size(); i++) {
+			if (optset.get(i).getName().equals(name)) {
 				break;
 			} else {
 				index++;
@@ -57,20 +67,20 @@ public class Automobile implements Serializable{
 	}
 	public OptionSet getOptionSet(String name) {
 		int index = getOptionSetIndex(name);
-		return optset[index];
+		return optset.get(index);
 	}
-	public OptionSet[] getOptionSetArray() {
+	public ArrayList<OptionSet> getOptionSetArrayList() {
 		return optset;
 	}
 	public int getOptionSetSize() {
-		return optset.length;
+		return optset.size();
 	}
 	
 	public Option getOption(int optsetIndex, int optIndex) {
 		if (!isValid(optsetIndex, optIndex)) {
 			return null;
 		}
-		return optset[optsetIndex].getOption(optIndex);
+		return optset.get(optsetIndex).getOption(optIndex);
 	}
 	public Option getOption(String optsetName, int optIndex) {
 		OptionSet set = getOptionSet(optsetName);
@@ -80,7 +90,7 @@ public class Automobile implements Serializable{
 		if (!isValid(optsetIndex)) {
 			return null;
 		}
-		return optset[optsetIndex].getOption(optName);
+		return optset.get(optsetIndex).getOption(optName);
 	}
 	public Option getOption(String optsetName, String optName) {
 		OptionSet set = getOptionSet(optsetName);
@@ -92,65 +102,75 @@ public class Automobile implements Serializable{
 	public Option getOption(OptionSet set, String optName) {
 		return set.getOption(optName);
 	}
-	public Option[] getOptionArray(int optsetIndex) {
+	public ArrayList<Option> getOptionArrayList(int optsetIndex) {
 		if (!isValid(optsetIndex)) {
 			return null;
 		}
-		return optset[optsetIndex].getOptionArray();
+		return optset.get(optsetIndex).getOptionArrayList();
 	}
 	public int getOptionSize(int optsetIndex) {
 		if (!isValid(optsetIndex)) {
 			return -1;
 		}
-		return optset[optsetIndex].getOptionArrayLength();
+		return optset.get(optsetIndex).getOptionArrayListLength();
 	}
 	
 	//Setters
 	public void setName(String name) {
 		this.name = name;
 	}
+	public void setMake(String make) {
+		this.make = make;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
 	public void setBasePrice(float basePrice) {
 		this.basePrice = basePrice;
 	}
-	public void setOptionSet(String name, String newName, Option[] newOpt) {
+	public void setOptionSet(String name, String newName, ArrayList<Option> newOpt) {
 		OptionSet optset = getOptionSet(name);
 		optset.setName(newName);
 		optset.setOption(newOpt);
 	}
-	public void setOptionSet(int index, String newName, Option[] newOpt) {
+	public void setOptionSet(int index, String newName, ArrayList<Option> newOpt) {
 		if (!isValid(index)) {
 			return;
 		}
-		optset[index].setName(newName);
-		optset[index].setOption(newOpt);
+		optset.get(index).setName(newName);
+		optset.get(index).setOption(newOpt);
 	}
 	public void setOptionSetName(String name, String newName) {
 		OptionSet optset = getOptionSet(name);
 		optset.setName(newName);
 	}
-	public void setOptionSetArray(int size) {
-		OptionSet[] optset = new OptionSet[size];
+	public void setOptionSetArrayList(int size) {
+		this.optset = new ArrayList<OptionSet>(size);
 		for (int i = 0; i < size; i++) {
-			optset[i] = new OptionSet();
+			this.optset.add(new OptionSet());
 		}
-		this.optset = optset;
 	}
-	public void setOptionSetArray(int size, OptionSet[] optset) {
-		OptionSet[] newOptset = new OptionSet[size];
-		for (int i = 0; i < size; i++) {
-			newOptset[i] = new OptionSet("Empty", new Option[] {});
-		}
-		for (int i = 0; i < optset.length; i++) {
-			newOptset[i] = optset[i];
+	public void setOptionSetArrayList(int size, ArrayList<OptionSet> optset) {
+		ArrayList<OptionSet> newOptset = new ArrayList<OptionSet>(size);
+		for (int i = 0; i < optset.size(); i++) {
+			newOptset.set(i, optset.get(i));
 		}
 		this.optset = newOptset;
+	}
+	public void setChoiceArrayList(int size) {
+		this.choice = new ArrayList<Option>(size);
+		//x is a dummy object, for enabling x.new Option()
+		OptionSet x = new OptionSet();
+		for (int i = 0; i < size; i++) {
+			this.choice.add(x.new Option());
+		}
 	}
 	public void setOption(int optsetIndex, int optIndex, String name, float price) {
 		if (!isValid(optsetIndex, optIndex)) {
 			return;
 		}
-		optset[optsetIndex].getOption(optIndex).setName(name);
-		optset[optsetIndex].getOption(optIndex).setPrice(price);
+		optset.get(optsetIndex).getOption(optIndex).setName(name);
+		optset.get(optsetIndex).getOption(optIndex).setPrice(price);
 	}
 	public void setOption(String optsetName, int optIndex, String name, float price) {
 		if (!isValid(optsetName, optIndex)) {
@@ -159,14 +179,14 @@ public class Automobile implements Serializable{
 		getOptionSet(optsetName).getOption(optIndex).setName(name);
 		getOptionSet(optsetName).getOption(optIndex).setPrice(price);
 	}
-	public void setOptionArray(OptionSet optset, int size) {
-		optset.setOptionArray(size);
+	public void setOptionArrayList(OptionSet optset, int size) {
+		optset.setOptionArrayList(size);
 	}
-	public void setOptionArray(int optIndex, int size) {
-		getOptionSet(optIndex).setOptionArray(size);
+	public void setOptionArrayList(int optIndex, int size) {
+		getOptionSet(optIndex).setOptionArrayList(size);
 	}
-	public void setOptionArray(String optName, int size) {
-		getOptionSet(optName).setOptionArray(size);
+	public void setOptionArrayList(String optName, int size) {
+		getOptionSet(optName).setOptionArrayList(size);
 	}
 	
 	//Finders
@@ -198,16 +218,7 @@ public class Automobile implements Serializable{
 		if (!isValid(index)) {
 			return;
 		}
-		OptionSet[] old = optset;
-		int oldIndex = 0;
-		this.optset = new OptionSet[this.optset.length - 1];
-		for (int i = 0; i < this.optset.length; i++) {
-			if (i == index) {
-				oldIndex++;
-			}
-			this.optset[i] = old[oldIndex];
-			oldIndex++;
-		}
+		this.optset.remove(index);
 	}
 	public void deleteOptionSet(String name) {
 		if (!isValid(name)) {
@@ -215,8 +226,8 @@ public class Automobile implements Serializable{
 		}
 		OptionSet delete = getOptionSet(name);
 		int deleteIndex = 0;
-		for (int i = 0; i < this.optset.length; i++) {
-			if (this.optset[i].equals(delete)) {
+		for (int i = 0; i < this.optset.size(); i++) {
+			if (this.optset.get(i).equals(delete)) {
 				break;
 			} else {
 				deleteIndex++;
@@ -229,17 +240,8 @@ public class Automobile implements Serializable{
 			return;
 		}
 		OptionSet set = getOptionSet(setIndex);
-		Option[] before = set.getOptionArray();
-		Option[] after = new Option[before.length - 1];
-		int j = 0;
-		for (int i = 0; i < before.length; i++) {
-			if (i == optIndex) {
-				continue;
-			} else {
-				after[j] = before[i];
-				j++;
-			}
-		}
+		ArrayList<Option> opt = set.getOptionArrayList();
+		opt.remove(optIndex);
 	}
 	public void deleteOption(int setIndex, String optName) {
 		if (!isValid(setIndex, optName)) {
@@ -265,12 +267,12 @@ public class Automobile implements Serializable{
 	
 	
 	//Updater
-	public void updateOptionSet(String name, String newName, Option[] newOpt) {
+	public void updateOptionSet(String name, String newName, ArrayList<Option> newOpt) {
 		OptionSet set = getOptionSet(name);
 		set.setName(newName);
 		set.setOption(newOpt);
 	}
-	public void updateOptionSet(int index, String newName, Option[] newOpt) {
+	public void updateOptionSet(int index, String newName, ArrayList<Option> newOpt) {
 		OptionSet set = getOptionSet(index);
 		set.setName(newName);
 		set.setOption(newOpt);
@@ -296,15 +298,15 @@ public class Automobile implements Serializable{
 	
 	// Sanity check
 	public boolean isValid(int setIndex) {
-		if (setIndex < 0 || setIndex >= this.optset.length) {
-			System.out.println("Input OptionSet index is invalid");
+		if (setIndex < 0 || setIndex >= this.optset.size()) {
+			System.out.println("Input Option)Set index is invalid");
 			return false;
 		}
 		return true;
 	}
 	public boolean isValid(String setName) {
-		for(int i = 0; i < this.optset.length; i++) {
-			if(this.optset[i].getName().equals(setName)) {
+		for(int i = 0; i < this.optset.size(); i++) {
+			if(this.optset.get(i).getName().equals(setName)) {
 				return true;
 			}
 		}
@@ -312,7 +314,7 @@ public class Automobile implements Serializable{
 		return false;
 	}
 	public boolean isValid(int setIndex, int optIndex) {
-		if (!isValid(setIndex) || optIndex < 0 || optIndex >= getOptionSet(setIndex).getOptionArrayLength()) {
+		if (!isValid(setIndex) || optIndex < 0 || optIndex >= getOptionSet(setIndex).getOptionArrayListLength()) {
 			System.out.println("Input Option index is invalid");
 			return false;
 		}
@@ -323,7 +325,7 @@ public class Automobile implements Serializable{
 			return false;
 		}
 		OptionSet set = getOptionSet(setIndex);
-		for (int i = 0; i < set.getOptionArrayLength(); i++) {
+		for (int i = 0; i < set.getOptionArrayListLength(); i++) {
 			if (set.getOption(i).getName().equals(optName)) {
 				return true;
 			}
@@ -332,7 +334,7 @@ public class Automobile implements Serializable{
 		return false;
 	}
 	public boolean isValid(String setName, int optIndex) {
-		if (!isValid(setName) || optIndex < 0 || optIndex >= getOptionSet(setName).getOptionArrayLength()) {
+		if (!isValid(setName) || optIndex < 0 || optIndex >= getOptionSet(setName).getOptionArrayListLength()) {
 			System.out.println("Input Option index is invalid");
 			return false;
 		}
@@ -343,7 +345,7 @@ public class Automobile implements Serializable{
 			return false;
 		}
 		OptionSet set = getOptionSet(setName);
-		for (int i = 0; i < set.getOptionArrayLength(); i++) {
+		for (int i = 0; i < set.getOptionArrayListLength(); i++) {
 			if (set.getOption(i).getName().equals(optName)) {
 				return true;
 			}
@@ -352,19 +354,54 @@ public class Automobile implements Serializable{
 		return false;
 	}
 	
+	//User choices
+	public String getOptionChoice(String optsetName) {
+		OptionSet set = getOptionSet(optsetName);
+		for (int i = 0; i < choice.size(); i++) {
+			if (set.contains(choice.get(i))) {
+				return choice.get(i).getName();
+			}
+		}
+		return "Option Choice Not Found";
+	}
+	
+	public float getOptionChoicePrice(String optsetName) {
+		OptionSet set = getOptionSet(optsetName);
+		for (int i = 0; i < choice.size(); i++) {
+			if (set.contains(choice.get(i))) {
+				return choice.get(i).getPrice();
+			}
+		}
+		return -1;
+	}
+	
+	public void setOptionChoice(String optsetName, String optName) {
+		Option opt = getOption(optsetName, optName);
+		this.choice.add(opt);
+	}
+	
+	public float getTotalPrice() {
+		float total = this.basePrice;
+		for (int i = 0; i < choice.size(); i++) {
+			total += choice.get(i).getPrice();
+		}
+		return total;
+	}
+	
+	
 	//Utility
 	public void print() {
-//			String format = "%-40s%s%n";
-//			System.out.printf(format, s, sa); // Is this String concatenation? 
 		StringBuilder sb = new StringBuilder();
-		sb.append("Automitive Name: ");
-		sb.append(this.name);
+		sb.append("Automitive Make and Model: ");
+		sb.append(this.make);
+		sb.append(", ");
+		sb.append(this.model);
 		sb.append("\tBase Price: $");
 		sb.append(this.basePrice);
 		System.out.println(sb.toString());
-		for (int i = 0; i < optset.length; i++) {
+		for (int i = 0; i < optset.size(); i++) {
 			System.out.print("\s\s");
-			optset[i].print();
+			optset.get(i).print();
 		}
 		System.out.println("-------------End of Automobile print function--------------");
 	}

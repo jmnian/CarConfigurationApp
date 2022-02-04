@@ -1,0 +1,51 @@
+Lexus ES350
+Lexus
+ES350
+41875
+5
+9
+2
+3
+2
+2
+Color
+Eminent White Pearl
+500
+Moonbeam Beige Metallic
+0
+Cloudburst Gray
+500
+Iridium
+500
+Caviar
+0
+Obsidian
+0
+Matador Red Mica
+0
+Nightfall Mica
+0
+Sunlit Green
+0
+Wood Trim with Ambient Lighting
+Present
+740
+Not Present
+0
+Interior Colors
+Black NuLuxe with Striated Black Film trim
+0
+Palomino NuLuxe with Striated Black trim
+400
+Acorn NuLuxe with Striated Black trim
+0
+Paint Protection Film
+Present
+430
+Not Present
+0
+Premium Audio Package (Mark Levinson)
+Present
+2900
+Not Present
+0
